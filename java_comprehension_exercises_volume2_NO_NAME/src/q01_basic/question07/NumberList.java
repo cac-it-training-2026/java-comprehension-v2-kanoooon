@@ -3,6 +3,8 @@ package q01_basic.question07;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.imageio.stream.IIOByteBuffer;
+
 /**
  * 整数リストを制御するクラス
  * 
@@ -22,6 +24,10 @@ class NumberList {
 	 */
 	public void addFromOneTo(Integer limit) {
 		//TODO ここから実装する
+		for (Integer i = 1; i < limit + 1; i++) {
+			numbers.add(i);
+
+		}
 
 	}
 
@@ -31,7 +37,7 @@ class NumberList {
 	 * @return Listの要素の合計値
 	 */
 	public Integer calcSumOfList() {
-		Integer sum = 0;
+		Integer sum = ;
 		//TODO ここから実装する
 
 		return sum;
