@@ -3,8 +3,6 @@ package q01_basic.question07;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.imageio.stream.IIOByteBuffer;
-
 /**
  * 整数リストを制御するクラス
  * 
@@ -24,7 +22,7 @@ class NumberList {
 	 */
 	public void addFromOneTo(Integer limit) {
 		//TODO ここから実装する
-		for (int i = 0; i <= limit; i++) {
+		for (int i = 1; i <= limit; i++) {
 			numbers.add(i);
 
 		}
@@ -66,7 +64,12 @@ class NumberList {
 	 */
 	public void removeIndexOfFirstHalf() {
 		//TODO ここから実装する
-		numbers.remove
+		int half = numbers.size() / 2;
+
+		for (int i = 0; i < half; i++) {
+			numbers.remove(0);
+
+		}
 
 	}
 
